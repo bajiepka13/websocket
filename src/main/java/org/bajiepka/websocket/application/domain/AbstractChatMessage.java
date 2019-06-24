@@ -17,7 +17,7 @@ import java.util.Date;
 public abstract class AbstractChatMessage implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Integer id;
 
     @CreationTimestamp

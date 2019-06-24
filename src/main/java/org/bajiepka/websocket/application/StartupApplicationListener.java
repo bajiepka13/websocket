@@ -32,7 +32,7 @@ public class StartupApplicationListener implements ApplicationListener<ContextRe
                 })
                 .collect(Collectors.toList());
 
-        System.out.println(messages);
+        log.info(messages.toString());
 
     }
 }
